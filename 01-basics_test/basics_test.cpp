@@ -18,3 +18,15 @@ TEST_CASE("Test multiply_numbers", "[2,5,10]") {
 	REQUIRE(multiply_numbers(5, 5) == 25);
 	REQUIRE(multiply_numbers(10, 10) == 100);
 }
+
+
+//Using the Test case above as a guide, write a test case for the
+//multiply_numbers with values 
+//2, 4 to equal 8
+//3, 5 to equal 15
+//10,10 to equal 100
+TEST_CASE("Test multiply_numbers", "[2,3,4,5,10]") {
+	REQUIRE(multiply_numbers(2, 4) ==8);
+	REQUIRE(multiply_numbers(3, 5) == 15);
+	REQUIRE(multiply_numbers(10, 10) == 100);
+	}
