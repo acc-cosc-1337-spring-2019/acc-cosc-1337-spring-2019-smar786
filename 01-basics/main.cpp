@@ -5,8 +5,9 @@ using std::cout;
 
 int main()
 {
-	cout << sum_numbers(5, 5) << '\n';
-	cout << multiply_numbers(10, 10);
+	cout << multiply_numbers(2, 4) << '\n';
+	cout << multiply_numbers(3, 5) << '\n';
+	cout << multiply_numbers(10,10) << '\n';
 
 	return 0;
 }
