@@ -13,24 +13,24 @@
 std::string get_generation(int year)
 {
 	
-	if (year >= 1996 && year <= 2014);
+	if (year >= 1996 && year <= 2014)
 	{
 		return "centenial";
 	}
-	else if(year >= 1977 && year <= 1995);
+	else if(year >= 1977 && year <= 1995)
 	{
 		return "Millenial";
 	}
 	
-	else if (year >= 1965 && year <= 1976);
+	else if (year >= 1965 && year <= 1976)
 	{
 		return "Generation X";
 	}
-	else if (year >= 1946 year <= 1964);
+	else if (year >= 1946 year <= 1964)
 	{
 		return "Baby Bloomer";
 	}
-	else if (year >= 1925 && year <= 1945);
+	else if (year >= 1925 && year <= 1945)
 	{
 		return "Silent Generation";
 	}
