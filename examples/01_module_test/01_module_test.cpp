@@ -27,7 +27,8 @@ TEST_CASE("test overtime function")
 //the year 1970 result should be 'Generation X'
 TEST_CASE("Test get_generation function")
 {
-	REQUIRE(get_generation(1925)== "silent generation");
+
+	REQUIRE(get_generation(1930) == "silent generation");
 	REQUIRE(get_generation(1946) == "Baby Boomer"); 
 	REQUIRE(get_generation(1970) == "Generation X");
 	REQUIRE(get_generation(1995) == "Millenial");

@@ -26,7 +26,7 @@ std::string get_generation(int year)
 	{
 		return "Generation X";
 	}
-	else if (year >= 1946 year <= 1964)
+	else if (year >= 1946 && year <= 1964)
 	{
 		return "Baby Bloomer";
 	}
@@ -36,6 +36,6 @@ std::string get_generation(int year)
 	}
 	else 
 	{ 
-		return "invalid year"
+		return "invalid year";
 	}
 }
